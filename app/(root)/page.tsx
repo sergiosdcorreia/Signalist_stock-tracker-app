@@ -1,6 +1,6 @@
-import {Button} from "@/components/ui/button";
+import React from "react";
 
-const Home:() => Element = () => {
+const Home:() => React.JSX.Element = () => {
     return (
         <div className="flex min-h-screen home-wrapper">
             Home
