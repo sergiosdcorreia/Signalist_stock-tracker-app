@@ -1,6 +1,7 @@
 "use client";
 
 import { CountrySelectField } from "@/components/forms/CountrySelectField";
+import FooterLink from "@/components/forms/FooterLink";
 import InputField from "@/components/forms/InputField";
 import SelectField from "@/components/forms/SelectField";
 import { Button } from "@/components/ui/button";
@@ -116,6 +117,11 @@ const SignOut = () => {
         >
           {isSubmitting ? "Creating Account" : "Start Your Investment Journey"}
         </Button>
+        <FooterLink
+          text="Already have an account?"
+          linkText="Sign in"
+          href="/sign-in"
+        />
       </form>
     </>
   );
